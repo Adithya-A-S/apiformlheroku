@@ -57,7 +57,7 @@ def diabetes_pred(input_parameters : model_input):
 
 
     input_list = [preg, glu, bp, skin, insulin, bmi, dpf, age]
-    input_list = list(map(int, input_list))
+    #input_list = list(map(int, input_list))
     
     prediction = diabetes_model.predict([input_list])
     
